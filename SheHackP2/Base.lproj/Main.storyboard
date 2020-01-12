@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="new dash" translatesAutoresizingMaskIntoConstraints="NO" id="OC5-Ls-jyd">
-                                <rect key="frame" x="-7" y="0.0" width="390" height="777"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="777"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lgT-9H-1HX">
@@ -75,7 +75,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="new profile" translatesAutoresizingMaskIntoConstraints="NO" id="895-kj-bkD">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="778"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="777"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6CJ-aU-tSm">
@@ -123,7 +123,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="69J-Is-yWm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2175" y="839"/>
+            <point key="canvasLocation" x="-2175.1999999999998" y="838.66995073891633"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Yw3-rW-D6e">
@@ -134,7 +134,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="new friends" translatesAutoresizingMaskIntoConstraints="NO" id="Nti-am-JGJ">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="778"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="777"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EIW-sr-slN">
@@ -182,7 +182,47 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U9B-i8-6kT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1418" y="839"/>
+            <point key="canvasLocation" x="-1418.4000000000001" y="838.66995073891633"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="m9p-Zd-3AT">
+            <objects>
+                <viewController id="ehS-t1-Kdo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jY1-gW-dou">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="manual entry" translatesAutoresizingMaskIntoConstraints="NO" id="wTm-mB-9Ry">
+                                <rect key="frame" x="0.0" y="-24" width="375" height="859"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q4o-Je-oBJ">
+                                <rect key="frame" x="0.0" y="524" width="375" height="210"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="jLV-Qv-ISp" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="aso-EF-WnF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="K9p-bu-zFo"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="wTm-mB-9Ry"/>
+                                <exclude reference="q4o-Je-oBJ"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="wTm-mB-9Ry"/>
+                                <include reference="q4o-Je-oBJ"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FvM-d3-d2B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-578.39999999999998" y="832.75862068965523"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Mlz-wO-hKb">
@@ -192,10 +232,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="manual" translatesAutoresizingMaskIntoConstraints="NO" id="lb1-7u-qfv">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="55N-ru-pDK">
                                 <rect key="frame" x="271" y="76" width="67" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -203,26 +239,30 @@
                                     <segue destination="eAO-9T-u9e" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="NYY-DO-47S"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="manual" translatesAutoresizingMaskIntoConstraints="NO" id="lb1-7u-qfv">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="ssD-3w-qUW"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="lb1-7u-qfv"/>
                                 <exclude reference="55N-ru-pDK"/>
+                                <exclude reference="lb1-7u-qfv"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
-                                <include reference="lb1-7u-qfv"/>
                                 <include reference="55N-ru-pDK"/>
+                                <include reference="lb1-7u-qfv"/>
                             </mask>
                         </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fRe-bj-aiZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="112.8" y="838.66995073891633"/>
+            <point key="canvasLocation" x="150" y="831"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="uh3-6Q-TSQ">
@@ -270,7 +310,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="new balanec" translatesAutoresizingMaskIntoConstraints="NO" id="coc-7z-ZIF">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="778"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="774"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HWj-EH-hYe">
@@ -334,7 +374,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="new expense" translatesAutoresizingMaskIntoConstraints="NO" id="Lt4-cb-1Sg">
-                                <rect key="frame" x="-19" y="0.0" width="406" height="778"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="776"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UXx-Gt-Bg1">
@@ -376,7 +416,7 @@
                                 <rect key="frame" x="23" y="369" width="329" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="jLV-Qv-ISp" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="hmz-5j-FX2"/>
+                                    <segue destination="ehS-t1-Kdo" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="Tke-im-rea"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -427,10 +467,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="receipt" translatesAutoresizingMaskIntoConstraints="NO" id="uSS-az-NaF">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="your receipt" translatesAutoresizingMaskIntoConstraints="NO" id="uSS-az-NaF">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="778"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oNs-hw-WkL">
+                                <rect key="frame" x="312" y="203" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="yOu-DG-7kU" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="zST-56-cho"/>
+                                </connections>
+                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="receipt-1" translatesAutoresizingMaskIntoConstraints="NO" id="LSH-Ph-KTp">
                                 <rect key="frame" x="54" y="140" width="375" height="812"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -441,6 +488,7 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="uSS-az-NaF"/>
+                                <exclude reference="oNs-hw-WkL"/>
                                 <exclude reference="LSH-Ph-KTp"/>
                             </mask>
                         </variation>
@@ -448,6 +496,7 @@
                             <mask key="subviews">
                                 <exclude reference="Uan-1L-bo2"/>
                                 <include reference="uSS-az-NaF"/>
+                                <include reference="oNs-hw-WkL"/>
                                 <exclude reference="LSH-Ph-KTp"/>
                             </mask>
                         </variation>
@@ -460,9 +509,90 @@
             </objects>
             <point key="canvasLocation" x="112.8" y="128.57142857142858"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="r8N-Wp-srG">
+            <objects>
+                <viewController id="yOu-DG-7kU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="11E-U6-23h">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6l0-Ik-p8K">
+                                <rect key="frame" x="286" y="70" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="OLe-IL-JGi" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="PbG-1L-v2S"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="your receipt filled" translatesAutoresizingMaskIntoConstraints="NO" id="HCP-rB-LR0">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="778"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="0f9-CZ-ZXw"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="6l0-Ik-p8K"/>
+                                <exclude reference="HCP-rB-LR0"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="6l0-Ik-p8K"/>
+                                <include reference="HCP-rB-LR0"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="em2-hx-gSd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="828" y="69.458128078817737"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="BBL-dU-TmK">
+            <objects>
+                <viewController id="OLe-IL-JGi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HJh-fn-FIc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NSM-ae-j6N">
+                                <rect key="frame" x="0.0" y="618" width="375" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="bss-00-tkC" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" id="Nt8-br-Jn7"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="thank you" translatesAutoresizingMaskIntoConstraints="NO" id="8aQ-KE-sPe">
+                                <rect key="frame" x="-85" y="-34" width="545" height="812"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Su-PJ-wjF"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="NSM-ae-j6N"/>
+                                <exclude reference="8aQ-KE-sPe"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="NSM-ae-j6N"/>
+                                <include reference="8aQ-KE-sPe"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZy-2w-k9b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1557.5999999999999" y="76.847290640394093"/>
+        </scene>
     </scenes>
     <resources>
         <image name="manual" width="750" height="1624"/>
+        <image name="manual entry" width="750" height="1624"/>
         <image name="manual sent" width="750" height="1624"/>
         <image name="new balanec" width="750" height="1624"/>
         <image name="new dash" width="750" height="1624"/>
@@ -470,14 +600,16 @@
         <image name="new friends" width="750" height="1624"/>
         <image name="new manual" width="750" height="1624"/>
         <image name="new profile" width="750" height="1624"/>
-        <image name="receipt" width="375" height="812"/>
         <image name="receipt-1" width="375" height="812"/>
+        <image name="thank you" width="750" height="1624"/>
+        <image name="your receipt" width="750" height="1624"/>
+        <image name="your receipt filled" width="750" height="1624"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Zhp-sg-jbw"/>
-        <segue reference="8yI-Qy-wcY"/>
-        <segue reference="pNy-YZ-hNe"/>
-        <segue reference="Jxr-j4-mGI"/>
-        <segue reference="mM0-WM-mMS"/>
+        <segue reference="8gp-bl-HwY"/>
+        <segue reference="eeg-nw-2YP"/>
+        <segue reference="gnL-tU-8vl"/>
+        <segue reference="AKL-b0-bMO"/>
+        <segue reference="MFn-XS-B2M"/>
     </inferredMetricsTieBreakers>
 </document>

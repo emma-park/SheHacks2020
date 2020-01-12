@@ -35,7 +35,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
         
         //hide buttons
         imageView.isHidden = true
-        takePhotoButton.isHidden = true
+        //takePhotoButton.isHidden = true
         background.isHidden = true
         
         imageView.image = info[.originalImage] as? UIImage
