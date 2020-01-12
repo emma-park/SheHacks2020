@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bss-00-tkC">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
@@ -8,19 +8,62 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="vay-XF-vsQ">
+        <scene sceneID="kHG-c2-sfq">
             <objects>
-                <viewController id="BYl-jX-xdV" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="gYz-UV-9tI">
+                <viewController id="bss-00-tkC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BXf-eY-CJi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="dashboard" translatesAutoresizingMaskIntoConstraints="NO" id="OC5-Ls-jyd">
+                                <rect key="frame" x="-7" y="0.0" width="390" height="778"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fwB-0L-zfQ">
+                                <rect key="frame" x="241" y="734" width="46" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="i8S-zj-DzK" kind="presentation" modalPresentationStyle="fullScreen" id="7Wl-yd-QZ3"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="1hs-3g-j23"/>
+                        <viewLayoutGuide key="safeArea" id="mzf-do-77g"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8Iv-H3-TUC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ghK-BS-qpC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-764" y="132"/>
+            <point key="canvasLocation" x="-2175.1999999999998" y="128.57142857142858"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Dkv-3h-6ka">
+            <objects>
+                <viewController id="i8S-zj-DzK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xl5-1e-2ql">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="spendingPage" translatesAutoresizingMaskIntoConstraints="NO" id="coc-7z-ZIF">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="724"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7PA-OX-3aT">
+                                <rect key="frame" x="164" y="189" width="46" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="ae9-hD-Cx9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="T1O-cR-Mwg"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="KAl-Na-QuP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WrG-Lx-O9O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1417" y="126"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -53,7 +96,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="131.8840579710145" y="128.57142857142856"/>
+            <point key="canvasLocation" x="-558" y="129"/>
         </scene>
         <!--Second Screen View Controller-->
         <scene sceneID="cSd-lm-5qj">
@@ -80,7 +123,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MBB-gX-kf1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="963" y="127"/>
+            <point key="canvasLocation" x="114" y="129"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="dashboard" width="443" height="960"/>
+        <image name="spendingPage" width="375" height="812"/>
+    </resources>
 </document>

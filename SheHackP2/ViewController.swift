@@ -31,17 +31,29 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
     
     func imagePickerController(_ picker: UIImagePickerController,
         didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        
+        //hide buttons
         imageView.isHidden = true
         takePhotoButton.isHidden = true
+        
         imageView.image = info[.originalImage] as? UIImage
         guard let selectedImage = imageView.image else {
             print("Image not found!")
             return
         }
+        
+        //save photo to library and dismiss image picker
         UIImageWriteToSavedPhotosAlbum(selectedImage, nil, nil, nil);
         imagePicker.dismiss(animated: true, completion: nil)
+        
+        let viewController = SecondScreenViewController(nibName:"SecondScreenViewController", bundle: nil)
+        viewController.image = selectedImage
         let svc = self.storyboard!.instantiateViewController(withIdentifier:"secondScreen") as! SecondScreenViewController
         self.present(svc, animated: false, completion: nil)
+        
+//        //switch screens to next panel
+//        let svc = self.storyboard!.instantiateViewController(withIdentifier:"secondScreen") as! SecondScreenViewController
+//        self.present(svc, animated: false, completion: nil)
         
 
     }
