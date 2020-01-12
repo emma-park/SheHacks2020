@@ -14,6 +14,7 @@
 		51471B3323CA8A80000490C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51471B3223CA8A80000490C8 /* Assets.xcassets */; };
 		51471B3623CA8A80000490C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51471B3423CA8A80000490C8 /* LaunchScreen.storyboard */; };
 		51471B3E23CA9E52000490C8 /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51471B3D23CA9E52000490C8 /* SecondScreenViewController.swift */; };
+		5151CE2D23CAF78E00C9926A /* IMG_8925.png in Resources */ = {isa = PBXBuildFile; fileRef = 5151CE2C23CAF78E00C9926A /* IMG_8925.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		51471B3523CA8A80000490C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51471B3723CA8A80000490C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51471B3D23CA9E52000490C8 /* SecondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenViewController.swift; sourceTree = "<group>"; };
+		5151CE2C23CAF78E00C9926A /* IMG_8925.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_8925.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				51471B2B23CA8A7A000490C8 /* SceneDelegate.swift */,
 				51471B2D23CA8A7A000490C8 /* ViewController.swift */,
 				51471B3D23CA9E52000490C8 /* SecondScreenViewController.swift */,
+				5151CE2C23CAF78E00C9926A /* IMG_8925.png */,
 				51471B2F23CA8A7A000490C8 /* Main.storyboard */,
 				51471B3223CA8A80000490C8 /* Assets.xcassets */,
 				51471B3423CA8A80000490C8 /* LaunchScreen.storyboard */,
@@ -131,6 +134,7 @@
 				51471B3623CA8A80000490C8 /* LaunchScreen.storyboard in Resources */,
 				51471B3323CA8A80000490C8 /* Assets.xcassets in Resources */,
 				51471B3123CA8A7A000490C8 /* Main.storyboard in Resources */,
+				5151CE2D23CAF78E00C9926A /* IMG_8925.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
