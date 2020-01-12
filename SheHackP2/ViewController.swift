@@ -27,6 +27,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
         present(imagePicker, animated: true, completion: nil)
     }
 
+    @IBOutlet weak var background: UIImageView!
     var imagePicker: UIImagePickerController!
     
     func imagePickerController(_ picker: UIImagePickerController,
@@ -35,6 +36,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
         //hide buttons
         imageView.isHidden = true
         takePhotoButton.isHidden = true
+        background.isHidden = true
         
         imageView.image = info[.originalImage] as? UIImage
         guard let selectedImage = imageView.image else {
@@ -49,6 +51,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
         let viewController = SecondScreenViewController(nibName:"SecondScreenViewController", bundle: nil)
         viewController.image = selectedImage
         let svc = self.storyboard!.instantiateViewController(withIdentifier:"secondScreen") as! SecondScreenViewController
+        svc.modalPresentationStyle = .fullScreen
         self.present(svc, animated: false, completion: nil)
         
 //        //switch screens to next panel
